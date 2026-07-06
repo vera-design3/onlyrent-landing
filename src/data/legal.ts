@@ -262,153 +262,247 @@ export const LEGAL: LegalData = {
       title: "Only Rent Terms and Conditions",
       effective: "Effective Date: March 1, 2026",
       sections: [
-        { h: "Article 1 Platform Information and Legal Nature", body: `Only Rent (the “Platform”) is operated by Only Rent Technology (S) Pte. Ltd., a company duly incorporated and validly existing under the laws of Singapore. The Platform is an online technology-based matching platform that provides technical services enabling service providers (“Service Providers”) and service requesters (“Customers”) to publish information, establish contact, facilitate transactions, and integrate third-party payment services.
+        { h: "Article 1 Platform Information and Legal Nature", body: `Only Rent (hereinafter referred to as the "Platform") is operated by Only Rent Technology (S) Pte. Ltd., a company duly incorporated and validly existing under the laws of Singapore. The Platform is an online technology-based matching platform that provides technical services enabling service providers (hereinafter referred to as "Service Providers") and service requesters (hereinafter referred to as "Customers") to publish information, establish contact, facilitate transactions, and integrate third-party payment services.
 
 The Platform only provides information display and transaction-related technical infrastructure. It does not participate in the actual performance of any services and shall not be deemed the agent, employee, partner, or joint operator of any Service Provider or Customer. Any service contract formed between a Service Provider and a Customer is entered into directly between such parties, and the Platform is not a party to such contract.
 
 The legal status of a Service Provider offering services through the Platform is that of an independent contractor, and not an employee, agent, or representative of the Platform. No employment relationship, labor relationship, or partnership exists between the Platform and any Service Provider. The Platform assumes no obligations under labor laws, including but not limited to wage payment, overtime pay, labor insurance, occupational injury compensation, pension contributions, or any other similar liabilities.
 
 By using the Platform, you acknowledge that you have read, understood, and agreed to all terms of these Terms and Conditions, and you further agree that your electronic acceptance shall have the same legal effect as a handwritten signature.` },
-        { h: "Article 2 Eligibility and Account Management", body: `Users of the Platform must be at least eighteen (18) years old and have full legal capacity. Persons under the age of eighteen (18) may not register for or use the Platform’s services.
+        { h: "Article 2 Eligibility and Account Management", body: `Users of the Platform must be at least eighteen (18) years old and have full legal capacity. Persons under the age of eighteen (18) may not register for or use the Platform's services.
 
-Users must provide true, complete, and valid personal information upon registration. The Platform may require mobile phone verification, email verification, or the upload of government-issued identification documents.
+Users must provide true, complete, and valid personal information upon registration. The Platform may require mobile phone verification, email verification, or the upload of government-issued identification documents. If a user fails to complete verification or provides false information, the Platform may restrict, suspend, or terminate such user's account and access to related functions.
 
 Users are responsible for properly safeguarding their account credentials and passwords. The Platform shall not be liable for any loss arising from unauthorized use of an account unless such loss is attributable to the Platform.` },
-        { h: "Article 3 Nature of Services and Risk Disclosure", body: `The Platform is solely a technology-based matching platform and makes no express or implied representations or warranties regarding the authenticity, legality, quality, suitability, or performance capability of any service content.
+        { h: "Article 3 Nature of Services and Risk Disclosure", body: `The Platform is solely a technology-based matching platform and makes no express or implied representations or warranties regarding the authenticity, legality, quality, suitability, or performance capability of any service content. The Platform does not guarantee continuous availability, error-free operation, or fitness for any particular purpose.
 
-Service Providers and Customers shall independently evaluate the risks of any transaction and shall bear all legal liabilities arising from the performance of services. Any personal injury, property damage, performance dispute, or tort liability arising from service performance shall be borne solely by the transacting parties.
+Service Providers and Customers shall independently evaluate the risks of any transaction and shall bear all legal liabilities arising from the performance of services. Any personal injury, property damage, performance dispute, or tort liability arising from service performance shall be borne solely by the transacting parties. The Platform does not provide any insurance coverage and is not responsible for whether any user has obtained commercial liability insurance, accident insurance, or any other insurance.
 
-To the fullest extent permitted by law, the Platform shall not be liable for any indirect, incidental, punitive, or consequential damages. The Platform’s total liability to any single user shall be limited to the total amount actually paid by such user to the Platform during the preceding twelve (12) months.` },
+To the fullest extent permitted by law, the Platform shall not be liable for any indirect, incidental, punitive, or consequential damages. The Platform's total liability to any single user shall be limited to the total amount actually paid by such user to the Platform during the preceding twelve (12) months.
+
+The Platform only provides technical verification and information display mechanisms, and does not guarantee the absolute authenticity of any user's identity, service capability, or performance integrity. Even if a user has completed real-name verification or third-party payment review procedures, such procedures are only part of the compliance measures and do not constitute any guarantee of such user's conduct or qualifications. Users shall independently assess transaction risks and bear the corresponding consequences.` },
         { h: "Article 4 Service Provider Qualifications, Payment Processing, and Tax Responsibilities", body: `Any Service Provider who completes transactions and receives compensation through the Platform must have full legal capacity and must lawfully provide true and complete identity information and related documents.
 
-Transaction funds shall be collected and processed by ECPay Co., Ltd. in accordance with its legal and compliance procedures, and disbursed in accordance with the Platform’s rules.
+Transaction funds shall be collected and processed by the third-party payment institution ECPay Co., Ltd. in accordance with its legal and compliance procedures, and disbursed in accordance with the Platform's rules.
 
-Where the Platform is legally deemed to be a withholding agent or the actual paying entity, the Platform may withhold individual income tax and second-generation National Health Insurance supplementary premiums from the compensation payable to the Service Provider in accordance with the applicable tax laws of the R.O.C (Taiwan) and the National Health Insurance Act.
+Where the Platform is legally deemed to be a withholding agent or the actual paying entity, the Platform may, in accordance with the applicable tax laws of the R.O.C. (Taiwan) and the National Health Insurance Act, withhold individual income tax and second-generation National Health Insurance supplementary premiums from the compensation payable to the Service Provider based on the Service Provider's status, the nature of the income, and applicable statutory standards, and may complete the required statutory filing procedures.
 
-Service Providers shall be solely responsible for filing their annual income tax returns in accordance with applicable law. Any amount withheld is only a provisional statutory withholding, and the final tax liability shall be determined based on the Service Provider’s annual tax filing.` },
+The withholding rates, applicable thresholds, calculation methods, and order of withholding under the preceding paragraph shall be handled in accordance with the laws then in force, the Platform's published rules, and the practical interpretations of the competent authorities.
+
+The Platform's withholding and filing actions are solely for the purpose of complying with legal obligations and shall not create any employment, labor, partnership, agency, or other subordinate relationship between the Platform and any Service Provider. Any service contract formed between a Service Provider and a Customer is entered into directly between such parties, and the Platform is not a party to such contract.
+
+Service Providers shall be solely responsible for filing their annual income tax returns in accordance with applicable law. Any amount withheld is only a provisional statutory withholding, and the final tax liability shall be determined based on the Service Provider's annual tax filing. The Platform does not guarantee any final tax outcome for any Service Provider.
+
+If applicable laws, competent authority interpretations, or payment structures change, the Platform may lawfully adjust the withholding mechanism, payment method, or cooperating payment institution, and shall announce such changes in accordance with applicable requirements.` },
         { h: "Article 5 Platform Service Fees and Revenue Allocation Mechanism", body: `For each successfully completed and confirmed order, the Platform shall charge the Service Provider a platform service fee based on the total transaction amount of the order. The current standard fee rate is twenty-five percent (25%).
 
-The platform service fee shall be calculated based on the total transaction amount of the order and shall be deducted first from the transaction funds after the order has been completed and confirmed.
+The "total transaction amount of the order" referred to in the preceding paragraph means the full amount actually paid by the Customer for the relevant service, excluding any taxes required by law to be withheld or any amounts that may not lawfully be treated as the Platform's revenue, if any.
 
-The Platform may adopt differentiated or tiered fee rates based on Service Provider level, transaction volume, service type, promotional activities, cooperation plans, or other operational strategies.
+The platform service fee shall be calculated based on the total transaction amount of the order and shall be deducted first from the transaction funds after the order has been completed and confirmed. Such platform service fee constitutes consideration for the Platform's provision of technical matching, system infrastructure, data processing, payment integration, information security, risk control, credit rating mechanisms, customer support, marketing promotion, and overall platform maintenance services, and does not form part of the Service Provider's income.
 
-Service Providers and Customers shall not complete transactions privately or otherwise evade the Platform’s service fees after establishing contact through the Platform. If verified, the Platform may take measures according to the severity of the violation, including warnings, functional restrictions, fund freezing, account termination, or claims for damages.` },
+The remaining balance after deduction of the platform service fee shall constitute the Service Provider's compensation. Any individual income tax and second-generation National Health Insurance supplementary premiums required by law shall be withheld from such compensation in accordance with Article 4.
+
+The Platform may adopt differentiated or tiered fee rates based on Service Provider level, transaction volume, service type, promotional activities, cooperation plans, or other operational strategies. Specific fee standards and applicable conditions shall be as announced by the Platform.
+
+Transaction funds are currently collected, processed, and allocated through the third-party payment institution ECPay Co., Ltd. The Platform reserves the right to change its payment service partners or adjust the fund allocation mechanism according to operational needs.
+
+Service Providers and Customers shall not complete transactions privately or otherwise evade the Platform's service fees after establishing contact through the Platform. If verified, the Platform may take measures according to the severity of the violation, including warnings, functional restrictions, fund freezing, account termination, or claims for damages.` },
         { h: "Article 6 Prohibited Conduct", body: `Users shall not use the Platform to engage in any unlawful or improper conduct, including but not limited to prostitution or sexual services, gambling, drug transactions, illegal financial activities, unauthorized professional medical practice, fraud, pyramid selling, or any conduct that infringes the rights of third parties.
 
-The Platform may, without prior notice, remove violating content, freeze accounts, restrict fund flows, or terminate services.` },
-        { h: "Article 7 Rating System and Algorithmic Authority", body: `The Platform operates a mutual rating system. Ratings are calculated based on a dynamically weighted average method. The Platform may conduct ranking, credit scoring, or risk assessment based on automated processing mechanisms.
+The Platform may, without prior notice, remove violating content, freeze accounts, restrict fund flows, or terminate services, and may cooperate with law enforcement authorities where necessary.` },
+        { h: "Article 7 Rating System and Algorithmic Authority", body: `The Platform operates a mutual rating system. Ratings are calculated based on a dynamically weighted average method. The Platform may conduct ranking, credit scoring, or risk assessment based on automated processing mechanisms. The Platform reserves the right to adjust rating rules, ranking logic, and weighting ratios at any time.
 
 If abnormal ratings result from system errors, technical issues, or reasons not attributable to the user, the Platform may make corrections based on its internal review results.` },
-        { h: "Article 8 Breach, Cancellation, and Account Sanctions", body: `After accepting an order, a Service Provider shall perform the service as agreed. If, without justified reason, the Service Provider fails to perform, arrives late, leaves early, or materially breaches the service commitment, the Platform may impose sanctions depending on the seriousness of the violation.
+        { h: "Article 8 Breach, Cancellation, and Account Sanctions", body: `After accepting an order, a Service Provider shall perform the service as agreed. If, without justified reason, the Service Provider fails to perform, arrives late, leaves early, or materially breaches the service commitment, and such conduct is confirmed by the Platform upon review, the Platform may impose sanctions depending on the seriousness of the violation, including warnings, restrictions on order acceptance, reduction of ranking weight, account suspension, or account termination.
+
+"Justified reason" under the preceding paragraph includes, but is not limited to, force majeure, sudden serious illness, major traffic accidents, or other causes not attributable to the Service Provider. The Service Provider shall notify the Platform within a reasonable period and provide relevant supporting evidence.
 
 A Customer may cancel an order at any time without charge before the Service Provider has accepted the order.
 
 After the Service Provider accepts the order, the system will provide the Customer with a fifteen (15) minute cooling-off cancellation period. If the order is cancelled within such period, the Customer shall be entitled to a full refund.
 
-After the expiration of the aforementioned cooling-off period, the order shall be deemed final and binding.` },
-        { h: "Article 9 Intellectual Property and Content License", body: `The Platform’s code, designs, trademarks, system architecture, and content are owned by the Company or its lawful licensors. No person may use them without prior written consent.
+After the expiration of the aforementioned cooling-off period, the order shall be deemed final and binding. Except where cancellation is due to reasons not attributable to the Customer, including but not limited to the Service Provider's failure to perform, material service defects, or circumstances where a refund is required by law, the Customer may not arbitrarily cancel the order, and the Platform will generally not provide a refund.
+
+If the Customer fails to appear at the agreed time, loses contact without justification, or refuses to perform the transaction, and such conduct is confirmed by the Platform upon review, the Customer shall be deemed in breach, and the Platform may refuse to provide a refund.
+
+If a Customer or Service Provider objects to a breach determination or sanction decision, such party may submit an appeal in accordance with the dispute resolution mechanism under Article 14 of these Terms and Conditions.
+
+The application of the foregoing breach handling and refund provisions shall comply with the principle of good faith and any mandatory provisions of consumer protection laws.
+
+The Platform may, based on risk management, legal compliance, or operational needs, adjust the relevant performance rules, sanction mechanisms, or cancellation policies, and shall announce such adjustments in accordance with applicable requirements.` },
+        { h: "Article 9 Intellectual Property and Content License", body: `The Platform's code, designs, trademarks, system architecture, and content are owned by the Company or its lawful licensors. No person may use them without prior written consent.
 
 Any public content posted by users on the Platform is licensed to the Platform on a worldwide, non-exclusive, sublicensable basis for platform operation, display, and marketing purposes.` },
         { h: "Article 10 Force Majeure", body: `The Platform shall not be liable for any interruption, delay, or inability to perform caused by natural disasters, war, government orders, major system attacks, power outages, communication failures, or any other force majeure events.` },
         { h: "Article 11 Governing Law and Dispute Resolution", body: `The formation, validity, interpretation, and performance of these Terms and Conditions shall, in principle, be governed by the laws of Singapore.
 
-Any dispute arising out of or in connection with these Terms and Conditions or the Platform’s services shall be submitted to the Singapore International Arbitration Centre (SIAC) for arbitration. The seat of arbitration shall be Singapore, and the language of arbitration shall be English.` },
-        { h: "Article 12 Language Priority, Severability, and Entire Agreement", body: `In the event of any discrepancy between the Chinese and English versions of these Terms and Conditions, the English version shall prevail. If any provision is held invalid or unenforceable, the remaining provisions shall remain in full force and effect.` },
-        { h: "Article 13 User Indemnification, Cooperation with Authorities, and Survival", body: `The user agrees that if the Platform, Only Rent Technology (S) Pte. Ltd., or its directors, employees, agents, partners, or affiliates suffers any loss, claim, demand, administrative penalty, or legal proceeding as a result of the user’s breach, the user shall bear full responsibility and shall indemnify the Platform.
+However, if the laws of the user's place of residence or the actual place of service performance contain mandatory provisions regarding consumer protection, labor protection, personal data protection, or other matters that must apply, such mandatory provisions shall prevail.
 
-The provisions relating to limitation of liability, intellectual property, content licensing, user indemnification, and dispute resolution shall survive the termination of any account.` },
-        { h: "Article 14 Order Disputes, Customer Service Handling, and Refund Mechanism", body: `If a Customer or Service Provider has any dispute, such party shall submit a complaint through the Platform’s customer service system within twenty-four (24) hours after order completion and provide relevant supporting evidence.
+The parties agree that, except for matters that may not be arbitrated by law, any dispute arising out of or in connection with these Terms and Conditions or the Platform's services shall be submitted to the Singapore International Arbitration Centre (SIAC) for arbitration in accordance with its then-current arbitration rules. The seat of arbitration shall be Singapore, and the language of arbitration shall be English.
 
-The Platform may temporarily freeze the relevant funds for risk control and dispute handling purposes.
+The Platform reserves the right to initiate legal proceedings or apply for injunctive or preservative relief before any court having lawful jurisdiction.` },
+        { h: "Article 12 Language Priority, Severability, and Entire Agreement", body: `In the event of any discrepancy between the Chinese and English versions of these Terms and Conditions, the English version shall prevail. If any provision of these Terms and Conditions is held invalid or unenforceable, the remaining provisions shall remain in full force and effect. These Terms and Conditions constitute the entire agreement between the user and the Platform and supersede all prior oral or written agreements.` },
+        { h: "Article 13 User Indemnification, Cooperation with Authorities, and Survival", body: `The user agrees that if the Platform, Only Rent Technology (S) Pte. Ltd., or its directors, employees, agents, partners, or affiliates suffers any loss, claim, demand, administrative penalty, or legal proceeding as a result of the user's breach of these Terms and Conditions, violation of applicable laws, or infringement of any third party's rights, the user shall bear full responsibility and shall indemnify the Platform for all resulting losses, costs, and expenses, including reasonable attorneys' fees, litigation costs, and handling expenses.
 
-The Platform only provides coordination and review mechanisms and is not an arbitrator or judicial authority.` },
-        { h: "Article 15 Fund Disbursement and Risk Control", body: `Disbursement of funds after order completion shall be handled in accordance with the operating procedures of the third-party payment institution and the processing time of relevant banks.
+The Platform may cooperate with investigations, orders, or requests from judicial authorities, competent authorities, or other legally authorized institutions, and may provide necessary data or information to the extent permitted by law. The user understands and agrees that where the Platform lawfully cooperates with such investigations or requests, the Platform shall not thereby incur any contractual or tort liability to the user.
 
-Where there are suspicions of fraud, anti-money laundering review requirements, or investigations by competent authorities, the Platform or the third-party payment institution may lawfully suspend or delay the disbursement of relevant funds.` },
+The provisions relating to limitation of liability, intellectual property, content licensing, user indemnification, and dispute resolution shall survive the termination of any account, discontinuation of services, or termination of these Terms and Conditions.` },
+        { h: "Article 14 Order Disputes, Customer Service Handling, and Refund Mechanism", body: `If a Customer or Service Provider has any dispute regarding service quality, performance, amount calculation, or any other transaction-related matter, such party shall submit a complaint through the Platform's customer service system within twenty-four (24) hours after order completion and provide relevant supporting evidence, including but not limited to communication records, photographs, videos, transaction records, or other supporting documents.
+
+The Platform may temporarily freeze the relevant funds for risk control and dispute handling purposes and may notify both parties to provide explanations or supplementary materials within a designated period.
+
+The Platform's customer service team shall conduct a preliminary review in accordance with internal review procedures, including confirmation of evidence completeness, verification of transaction records, and risk assessment. Where necessary, the Platform may request additional explanations or evidence from either party.
+
+The Platform only provides coordination and review mechanisms and is not an arbitrator or judicial authority. The Platform's handling result is an operational determination made based on the information available at the time and shall not affect either party's right to seek judicial remedies in accordance with applicable law.
+
+If a Service Provider fails to perform without justification, and such failure is confirmed upon review, the Platform may assist in processing a refund and may impose corresponding sanctions on the Service Provider's account.
+
+If a Customer files a malicious complaint, provides false information, or abuses the refund mechanism, the Platform may restrict the Customer's account or terminate services according to the seriousness of the violation.
+
+Unless otherwise required by mandatory law, the Platform does not guarantee that the outcome of any dispute handling will necessarily conform to either party's claims.` },
+        { h: "Article 15 Fund Disbursement and Risk Control", body: `Disbursement of funds after order completion shall be handled in accordance with the operating procedures of the third-party payment institution and the processing time of relevant banks. Actual receipt time may be delayed due to financial institutions, holidays, or risk review procedures.
+
+Where there are suspicions of fraud, anti-money laundering review requirements, or investigations by competent authorities, the Platform or the third-party payment institution may lawfully suspend or delay the disbursement of relevant funds.
+
+Users understand and agree that fund processing is subject to the rules of the third-party payment institution, and the Platform is not responsible for bank processing times or the results of third-party reviews.
+
+Any risk control decisions, account freezes, delayed disbursements, or transaction rejections made by any third-party payment institution, bank, or other financial service provider are independent decisions made by such institutions in accordance with their legal compliance obligations and internal policies, and do not constitute decisions or acts of the Platform. The Platform shall not be responsible for the review standards or operational results of such third parties.` },
         { h: "Article 16 User Representations and Warranties", body: `Users represent and warrant that:
 
 1. the information and service content they provide are true, lawful, and do not infringe the rights of any third party;
 2. where the services provided require professional qualifications or licenses, such qualifications or licenses have been lawfully obtained;
 3. they will not use the Platform for any unlawful or improper activities; and
-4. any request posted by a Customer is lawful.` },
-        { h: "Article 17 Account Sanction Mechanism", body: `Depending on the seriousness of the violation, the Platform may impose: warning; restriction of certain functions; account suspension; freezing of funds; or permanent account termination.
+4. any request posted by a Customer is lawful and does not involve any unlawful purpose.
+
+If any breach of the above representations causes loss to the Platform or any third party, the user shall bear full indemnification liability.` },
+        { h: "Article 17 Account Sanction Mechanism", body: `Depending on the seriousness of the violation, the Platform may impose the following measures:
+
+1. warning;
+2. restriction of certain functions;
+3. account suspension;
+4. freezing of funds; and
+5. permanent account termination.
 
 Where fraud, serious infringement, violent threats, prostitution, gambling, drugs, or other major unlawful conduct is involved, the Platform may permanently terminate the relevant account immediately without prior notice.` },
         { h: "Article 18 Infringement Complaints and Takedown Mechanism", body: `Any rights holder who believes that their intellectual property rights or other lawful rights have been infringed may submit a written notice to the Platform together with reasonable supporting documentation.
 
-The Platform may temporarily remove the relevant content after reasonable review.` },
-        { h: "Article 19 Notices and Service", body: `The Platform may provide notices to users by in-platform announcements, application notifications, SMS messages, or email. Any notice shall be deemed duly delivered within a reasonable period after it is sent.` },
+The Platform may temporarily remove the relevant content after reasonable review. If the user submits a counter-notice with reasonable explanations, the Platform may restore the content or advise the parties to resolve the matter through legal channels.` },
+        { h: "Article 19 Notices and Service", body: `The Platform may provide notices to users by in-platform announcements, application notifications, SMS messages, or email.
+
+Any notice shall be deemed duly delivered within a reasonable period after it is sent. Users shall ensure that their contact information remains current and valid.` },
       ],
     },
     privacy: {
       title: "Only Rent Privacy Policy",
       effective: "Effective Date: March 1, 2026",
       sections: [
-        { h: "Article 1 Purpose and Scope of This Policy", body: `This Privacy Policy applies to the Only Rent platform (the “Platform”) operated by Only Rent Technology (S) Pte. Ltd. (the “Company”). This Policy explains how the Platform collects, processes, uses, stores, and protects users’ personal data.
+        { h: "Article 1 Purpose and Scope of This Policy", body: `This Privacy Policy applies to the Only Rent platform (the "Platform") operated by Only Rent Technology (S) Pte. Ltd. (the "Company"). This Policy explains how the Platform collects, processes, uses, stores, and protects users' personal data.
 
-The Company is the data controller of the Platform. In collecting and processing personal data, the Company will comply with Singapore’s Personal Data Protection Act (PDPA) and any mandatory data protection laws applicable in the user’s jurisdiction, including but not limited to Taiwan’s Personal Data Protection Act.
+The Company is the data controller of the Platform. In collecting and processing personal data, the Company will comply with Singapore's Personal Data Protection Act (PDPA) and any mandatory data protection laws applicable in the user's jurisdiction, including but not limited to Taiwan's Personal Data Protection Act.
 
-If you have any questions, requests, or complaints regarding this Privacy Policy, you may contact the Company at support@onlyrent.sg.` },
-        { h: "Article 2 Categories of Data Collected", body: `The Platform may collect:
+If the laws of the user's jurisdiction contain mandatory provisions regarding personal data protection, such provisions shall prevail.
 
-• Identity data (name, date of birth, national ID/passport number, etc.);
-• Contact data (mobile phone, email, mailing address);
-• Account and transaction data (service records, orders, payment, refunds, ratings);
-• Device and technical data (IP, device ID, OS, cookies, usage records);
-• Location data (where authorized);
-• Customer service and communication data.
+If you have any questions, requests, or complaints regarding this Privacy Policy or the handling of personal data, you may contact the Company at support@onlyrent.sg. The Company will respond within a reasonable period.
+
+By using the Platform, you acknowledge that you have read and agreed to this Privacy Policy.` },
+        { h: "Article 2 Categories of Data Collected", body: `The Platform may collect the following categories of data:
+• Identity data, including name, date of birth, national identification number, passport number, residence permit number, and other data capable of identifying an individual under applicable law;
+• Contact data, including mobile phone number, email address, and mailing address;
+• Account and transaction data, including service records, order details, payment records, refund records, and rating records;
+• Device and technical data, including IP address, device identifier, device model, operating system version, browsing records, cookie information, and application usage behavior records;
+• Location-related data (where authorized by the user), including location information actively entered or authorized by the user;
+• Customer service and communication data, including content of communications through customer service systems, email, or in-platform messages.
 
 Payment-related data is processed by third-party payment institutions, and the Platform does not store complete credit card or bank card information.
 
-The Platform only collects and processes personal data to the minimum extent necessary.` },
+Data sources include: information provided directly by users, technical data automatically generated during use of the Platform, and necessary verification information lawfully returned by third-party payment institutions or partner service providers.
+
+The Platform only collects and processes personal data to the minimum extent necessary to achieve specific processing purposes and avoids collecting excessive data unrelated to the services.` },
+        { h: "Article 2-1 Application Permission Usage", body: `To provide complete functionality and a good user experience, the Platform's application may, after obtaining the user's consent, request the following device permissions based on actual functional needs:
+
+1. Photo Library / Photo Access Permission (read storage)
+Used when a user publishes posts, skills, tasks, or other content, to select images from the device's photo library and upload them to the Platform for display or as supplementary content for transaction- or service-related data.
+
+2. Camera Permission (CAMERA)
+Used when a user performs identity verification to take photos, or to capture images as records or supporting evidence during service performance, dispute handling, content upload, and other related functions.
+
+3. Microphone Permission (RECORD_AUDIO)
+Used when a user records video or uses functions requiring audio recording, to simultaneously record audio in order to provide complete audiovisual content or as part of the function's operation.
+
+4. Location Permission (LOCATION)
+Used to obtain the user's location information, in order to recommend nearby tasks, match service needs, confirm service addresses, optimize search results, provide map positioning functions, and assist with transaction security management. Users may choose whether to authorize precise or approximate location information according to their device settings.
+
+5. Local Network Access Permission
+Used to detect the network connection status of the device and application, confirm whether service functions operate normally, assist with technical connection needs between devices or on local networks, and improve connection stability and service quality.
+
+Each of the foregoing permissions is activated only when the user actively uses the corresponding function. The Platform will not, without the user's permission, actively collect data unrelated to the foregoing permissions in the background. Users may manage, disable, or withdraw the foregoing permissions at any time through their device or operating system settings. However, if a user refuses to authorize, disables, or withdraws a specific permission, some Platform functions may not operate normally, be fully provided, or achieve their intended effect. The Platform uses data obtained through the foregoing permissions only to the extent necessary to achieve specific functional purposes, and collects, processes, uses, stores, and protects such data in accordance with this Privacy Policy and applicable laws.` },
         { h: "Article 3 Legal Basis for Data Processing", body: `The legal bases on which the Platform collects and processes personal data include:
 
 1. performance of the contract between the user and the Platform;
 2. compliance with legal obligations;
-3. the user’s express or implied consent; and
-4. the Company’s legitimate business interests in maintaining platform security, transaction order, and normal operations.` },
+3. the user's express or implied consent; and
+4. the Company's legitimate business interests in maintaining platform security, transaction order, and normal operations.` },
         { h: "Article 4 Purposes of Data Use", body: `The data collected by the Platform will be used for: identity verification, security management, transaction processing, payment integration, customer support, risk control, fraud prevention, dispute handling, legal compliance, data analysis, and operational optimization.
 
-The Platform may carry out content ranking, credit scoring, or risk assessment based on automated processing mechanisms.
+The Platform may carry out content ranking, credit scoring, or risk assessment based on automated processing mechanisms in order to maintain transaction safety and service quality. Such automated processing may involve a comprehensive analysis of users' transaction history, rating history, performance records, or usage behavior data.
 
-Subject to the user’s consent, the Platform may send marketing messages, push notifications, or emails. Users may disable marketing push notifications in the application settings.` },
-        { h: "Article 5 Third-Party Sharing, Technical Services, and Outsourced Processing", body: `To provide complete services, the Platform may provide necessary data to third-party partners, including:
+Such automated processing does not constitute a decision producing final legal effects. If a user objects to any such result, the user may request manual review through customer service.
 
+Subject to the user's consent, the Platform may send marketing messages, push notifications, or emails. Users may disable marketing push notifications in the application settings or unsubscribe through the email unsubscribe mechanism. However, necessary notifications relating to transaction security, account risk, or system notices are not considered marketing communications.` },
+        { h: "Article 5 Third-Party Sharing, Technical Services, and Outsourced Processing", body: `To provide complete services, the Platform may provide necessary data to third-party partners, including but not limited to:
 • third-party payment institutions;
 • cloud service providers;
 • data storage and server hosting providers;
 • map service API providers;
 • data analytics and system monitoring service providers;
-• push notification and communication service providers;
-• competent authorities lawfully entitled to access such data.
+• push notification and communication service providers; and
+• competent authorities or judicial authorities lawfully entitled to access such data.
 
-The Platform does not sell or lease users’ personal data to any commercial third party.` },
+The Platform may use third-party technical tools or software development kits (SDKs) to optimize system operation and user experience. Such third parties may only access necessary technical data within the scope of their services and must comply with confidentiality and data protection obligations.
+
+The Platform does not sell or lease users' personal data to any commercial third party.` },
         { h: "Article 6 Cross-Border Data Transfers", body: `User data may be stored or processed in Singapore, Taiwan, or other countries or regions that provide an appropriate standard of data protection.
 
-The Platform will adopt reasonable technical and organizational measures in accordance with applicable law.` },
+The Platform will adopt reasonable technical and organizational measures in accordance with applicable law to ensure the security and legality of cross-border data transfers.` },
         { h: "Article 7 Data Retention Period and Account Deletion", body: `The Platform will retain personal data for the period necessary to fulfill the purposes for which it was collected.
 
-Transaction and financial data required to be retained by law shall be kept for at least five (5) years.
+Transaction and financial data required to be retained by law shall be kept for at least five (5) years or for a longer period if required by applicable laws and regulations.
 
-When a user requests deletion of an account, the Platform will terminate access and will delete or anonymize the user’s personal data within a reasonable period.` },
-        { h: "Article 8 Data Security Measures and Security Incident Handling", body: `The Platform adopts reasonable and appropriate technical and organizational measures to protect data security, including encrypted transmission, tiered access controls, access monitoring, data backup, and regular security reviews.
+When a user requests deletion of an account, the Platform will terminate access to such account and will delete or anonymize the user's personal data within a reasonable period. However, data necessary for compliance with legal obligations, dispute handling, fraud prevention, or fulfillment of financial or tax retention obligations may be retained until the statutory retention period expires.
+
+Backup data may be deleted with delay due to technical operating cycles, but will be automatically cleared under the normal backup rotation mechanism.` },
+        { h: "Article 8 Data Security Measures and Security Incident Handling", body: `The Platform adopts reasonable and appropriate technical and organizational measures to protect data security, including but not limited to:
+• encrypted transmission;
+• tiered access controls;
+• access monitoring;
+• data backup; and
+• regular security reviews.
 
 However, internet transmission is not absolutely secure, and the Platform cannot guarantee absolute security of data transmission.
 
-If a security incident occurs, the Platform will conduct an investigation and notify affected parties within the legally required time.` },
-        { h: "Article 9 User Rights", body: `Users may exercise the following rights:
+If a security incident occurs that may result in unauthorized access to, disclosure of, damage to, or loss of personal data, the Platform will conduct an investigation in accordance with applicable law and will notify the relevant competent authorities and affected users within the legally required time, including an explanation of the categories of data potentially affected and the remedial measures taken.
 
-• inquire about or request access to personal data;
-• request a copy;
-• request supplementation or correction;
-• request cessation of collection, processing, or use;
-• request deletion;
-• withdraw consent.
+However, if any data breach results from force majeure, unforeseeable or unavoidable malicious attacks by third parties, or causes not attributable to the Platform, the Platform shall not be liable for damages to the extent permitted by law.` },
+        { h: "Article 9 User Rights", body: `Users may exercise the following rights in accordance with applicable law:
+• to inquire about or request access to personal data;
+• to request a copy of personal data;
+• to request supplementation or correction;
+• to request cessation of collection, processing, or use;
+• to request deletion; and
+• to withdraw consent.
 
 The Platform will handle such requests within a reasonable period, usually not exceeding thirty (30) days.` },
-        { h: "Article 10 Processing of Minors’ Data", body: `The Platform does not provide services to persons under the age of eighteen (18). If the Platform becomes aware that a minor has provided personal data without the consent of a legal guardian, the Platform will immediately cease processing such data and delete it.` },
-        { h: "Article 11 Cookies and Technical Identifiers", body: `The Platform may use cookies, device identifiers, and similar technologies to improve user experience, conduct data analysis, and maintain security monitoring. Users may manage cookies through their device or browser settings.` },
-        { h: "Article 12 Policy Amendments", body: `The Platform may amend this Privacy Policy due to changes in law or operational needs. Material amendments will be notified to users through platform announcements, application notifications, or email.` },
+        { h: "Article 10 Processing of Minors' Data", body: `The Platform does not provide services to persons under the age of eighteen (18).
+
+If the Platform becomes aware that a minor has provided personal data without the consent of a legal guardian, the Platform will immediately cease processing such data and delete it.` },
+        { h: "Article 11 Cookies and Technical Identifiers", body: `The Platform may use cookies, device identifiers, and similar technologies to improve user experience, conduct data analysis, and maintain security monitoring.
+
+Users may manage cookies through their device or browser settings. However, disabling certain technical features may affect the normal operation of some Platform services.` },
+        { h: "Article 12 Policy Amendments", body: `The Platform may amend this Privacy Policy due to changes in law or operational needs.
+
+Material amendments will be notified to users through platform announcements, application notifications, or email.
+
+The amended policy will specify its effective date. Continued use of the Platform after the effective date of the amended policy shall constitute acceptance of the updated policy.` },
       ],
     },
   },
