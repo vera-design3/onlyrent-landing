@@ -1316,6 +1316,15 @@ footer{ background:#111211 !important; }
   .nav.scrolled .nav-cta{ padding:7px 15px; font-size:13px; }
 }
 
+/* 11. iOS 安全區（viewport-fit=cover）：頂部狀態列＝白 nav、底部＝黑 footer，一路鋪到螢幕邊緣 */
+.nav{ padding-top: calc(20px + env(safe-area-inset-top)); }
+.nav.scrolled{ padding-top: calc(12px + env(safe-area-inset-top)); }
+footer{ padding-bottom: calc(40px + env(safe-area-inset-bottom)); }
+@media (max-width:640px){
+  .nav{ padding-top: calc(14px + env(safe-area-inset-top)); }
+  .nav.scrolled{ padding-top: calc(9px + env(safe-area-inset-top)); }
+}
+
 /* 10. 下載按鈕 hover：桌機（有滑鼠）才觸發、改品牌 teal 質感；手機/觸控不出現 hover */
 @media (hover: hover){
   .btn-dl:hover, .cta-dl-row .btn-dl:hover{
