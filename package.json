@@ -1,0 +1,26 @@
+{
+  "name": "only-rent-app",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run build:zh && npm run build:en",
+    "build:zh": "tsc -b && vite build --mode zh --outDir dist-zh --emptyOutDir",
+    "build:en": "tsc -b && vite build --mode en --outDir dist-en --emptyOutDir",
+    "preview:zh": "vite preview --mode zh --outDir dist-zh",
+    "preview:en": "vite preview --mode en --outDir dist-en"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react-swc": "^3.7.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
