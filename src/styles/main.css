@@ -1138,6 +1138,8 @@ body, body.theme-light{ background:#fff; color:var(--ink); }
 @media (max-width:980px){
   .hero-media{ margin-top:16px; }
   .hero-media img{ width:min(330px,100%); }
+  /* 單欄堆疊時文字區塊水平置中（否則 560px 區塊靠左，768px 會歪） */
+  .hero-left{ margin-left:auto; margin-right:auto; }
 }
 .hero-eyebrow{ background:transparent; border:none; padding:0; color:#27C5D6; }
 .hero-eyebrow .dot{ background:#27C5D6; box-shadow:none; }
