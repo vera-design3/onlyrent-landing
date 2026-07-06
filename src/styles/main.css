@@ -833,7 +833,7 @@ footer { background: var(--bg-dark); color: #fff; padding: 80px 32px 40px; borde
 
 /* Pulsing dot glow */
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 0 0 var(--accent); }
+  0%, 100% { box-shadow: 0 0 0 0 #27C5D6; }
   50% { box-shadow: 0 0 0 8px rgba(39,197,214,0); }
 }
 .hero-eyebrow .dot {
